@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'pebbles-fujoshi'
+
+p 'A' * 'B' #=> "A × B"
+p 'A' + 'B' #=> "A + B"
+p 'A' & 'B' #=> "A & B"
+p 'A' < 'B' #=> "A ← B"
+p 'A' > 'B' #=> "A → B"
+
+p 'A' > 'B' < 'C' #=> "A → B ← C"
+```
 
 ## Contributing
 
