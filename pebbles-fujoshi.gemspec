@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Pebbles::Fujoshi::VERSION
   gem.authors       = ["fukayatsu"]
   gem.email         = ["fukayatsu@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{a joke gem to fujoshizing}
+  gem.summary       = %q{a joke gem to fujoshizing}
+  gem.homepage      = "https://github.com/fukayatsu/pebbles-fujoshi"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
